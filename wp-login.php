@@ -582,8 +582,10 @@ case 'retrievepassword' :
 		$user_login = wp_unslash( $_POST['user_login'] );
 	}
 
-	include __DIR__ . '/template-parts/lostpassword.php';
-
+	$path = '/template-parts/lostpassword.php';
+	include ( ($file = get_template_directory() . $path) && is_readable($file) ) ?
+		$file : __DIR__ . $path;
+	
 	login_footer('user_login');
 
 	if ( $switched_locale ) {
@@ -650,7 +652,9 @@ case 'rp' :
 
 	login_header(__('Reset Password'), '<p class="message reset-pass">' . __('Enter your new password below.') . '</p>', $errors );
 
-	include __DIR__ . '/template-parts/resetpass.php';
+	$path = '/template-parts/resetpass.php';
+	include ( ($file = get_template_directory() . $path) && is_readable($file) ) ?
+		$file : __DIR__ . $path;
 
 	login_footer('user_pass');
 
@@ -710,7 +714,9 @@ case 'register' :
 	login_header(__('Registration Form'), '<p class="message register">' .
 		apply_filters('register_login_header_text', __('Register For This Site')) . '</p>', $errors);
 
-	include __DIR__ . '/template-parts/register.php';
+	$path = '/template-parts/register.php';
+	include ( ($file = get_template_directory() . $path) && is_readable($file) ) ?
+		$file : __DIR__ . $path;
 
 	login_footer('user_login');
 
@@ -864,7 +870,9 @@ default:
 		$aria_describedby_error = '';
 	}
 
-	include __DIR__ . '/template-parts/login.php';
+	$path = '/template-parts/login.php';
+	include ( ($file = get_template_directory() . $path) && is_readable($file) ) ?
+		$file : __DIR__ . $path;
 
 	login_footer();
 

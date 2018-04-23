@@ -1,0 +1,233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: plugin\n"
+"POT-Creation-Date: 2018-04-23 23:13+0400\n"
+"PO-Revision-Date: 2018-04-23 23:13+0400\n"
+"Last-Translator: \n"
+"Language-Team: NikolayS93 <NikolayS93@yandex.ru>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.7.1\n"
+"X-Poedit-Basepath: ../.\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-KeywordsList: __;__e;_n:1,2;_x:1,2c;_ex:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: includes/classes\n"
+"X-Poedit-SearchPathExcluded-1: languages\n"
+"X-Poedit-SearchPathExcluded-2: .git\n"
+
+#: _tmp/_login.php:65 wp-login.php:61
+#, php-format
+msgid "%1$s &lsaquo; %2$s &#8212; WordPress"
+msgstr ""
+
+#: _tmp/_login.php:120 wp-login.php:116
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: _tmp/_login.php:121 wp-login.php:117
+msgid "Powered by WordPress"
+msgstr ""
+
+#: _tmp/_login.php:257 wp-login.php:253
+#, php-format
+msgctxt "site"
+msgid "&larr; Back to %s"
+msgstr ""
+
+#: _tmp/_login.php:316 wp-login.php:312
+msgid "<strong>ERROR</strong>: Enter a username or email address."
+msgstr ""
+
+#: _tmp/_login.php:320 wp-login.php:316
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: _tmp/_login.php:341 wp-login.php:337
+msgid "<strong>ERROR</strong>: Invalid username or email."
+msgstr ""
+
+#: _tmp/_login.php:364 wp-login.php:360
+msgid "Someone has requested a password reset for the following account:"
+msgstr ""
+
+#: _tmp/_login.php:366 wp-login.php:362
+#, php-format
+msgid "Site Name: %s"
+msgstr ""
+
+#: _tmp/_login.php:368 wp-login.php:364
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: _tmp/_login.php:369 wp-login.php:365
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: _tmp/_login.php:370 wp-login.php:366
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: _tmp/_login.php:374 wp-login.php:370
+#, php-format
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: _tmp/_login.php:404 wp-login.php:400
+msgid "The email could not be sent."
+msgstr ""
+
+#: _tmp/_login.php:404 wp-login.php:400
+msgid "Possible reason: your host may have disabled the mail() function."
+msgstr ""
+
+#: _tmp/authorize.php:47
+msgid "<strong>ERROR</strong>: The phone number field is incorrect."
+msgstr ""
+
+#: _tmp/authorize.php:62
+msgid "<strong>ERROR</strong>: Invalid nickname, email or phone number."
+msgstr ""
+
+#: _tmp/authorize.php:64 _tmp/authorize.php:84
+msgid "Lost your password?"
+msgstr ""
+
+#: _tmp/authorize.php:80
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: The password you entered for the phone number or "
+"email address %s is incorrect."
+msgstr ""
+
+#: custom-auth.php:35
+msgid "Custom form user auth wp-login.php"
+msgstr "Собственная форма авторизации пользователя"
+
+#: template-parts/login.php:37 template-parts/lostpassword.php:21
+#: template-parts/resetpass.php:52
+msgid "Register"
+msgstr ""
+
+#: template-parts/register.php:26
+msgid "Registration confirmation will be emailed to you."
+msgstr ""
+
+#: wp-login.php:553
+msgid ""
+"Your password reset link appears to be invalid. Please request a new link "
+"below."
+msgstr ""
+
+#: wp-login.php:555
+msgid "Your password reset link has expired. Please request a new link below."
+msgstr ""
+
+#: wp-login.php:576
+msgid "Lost Password"
+msgstr ""
+
+#: wp-login.php:577
+msgid ""
+"Please enter your username or email address. You will receive a link to "
+"create a new password via email."
+msgstr ""
+
+#: wp-login.php:630
+msgid "The passwords do not match."
+msgstr ""
+
+#: wp-login.php:645
+msgid "Password Reset"
+msgstr ""
+
+#: wp-login.php:645
+msgid "Your password has been reset."
+msgstr ""
+
+#: wp-login.php:645
+msgid "Log in"
+msgstr ""
+
+#: wp-login.php:653
+msgid "Reset Password"
+msgstr ""
+
+#: wp-login.php:653
+msgid "Enter your new password below."
+msgstr ""
+
+#: wp-login.php:714
+msgid "Registration Form"
+msgstr ""
+
+#: wp-login.php:715
+msgid "Register For This Site"
+msgstr ""
+
+#: wp-login.php:769
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Cookies are blocked due to unexpected output. For "
+"help, please see <a href=\"%1$s\">this documentation</a> or try the <a href="
+"\"%2$s\">support forums</a>."
+msgstr ""
+
+#: wp-login.php:770 wp-login.php:775
+msgid "https://codex.wordpress.org/Cookies"
+msgstr ""
+
+#: wp-login.php:770
+msgid "https://wordpress.org/support/"
+msgstr ""
+
+#: wp-login.php:774
+#, php-format
+msgid ""
+"<strong>ERROR</strong>: Cookies are blocked or not supported by your "
+"browser. You must <a href=\"%s\">enable cookies</a> to use WordPress."
+msgstr ""
+
+#: wp-login.php:793
+msgid "You have logged in successfully."
+msgstr ""
+
+#: wp-login.php:830
+msgid "Your session has expired. Please log in to continue where you left off."
+msgstr ""
+
+#: wp-login.php:834
+msgid "You are now logged out."
+msgstr ""
+
+#: wp-login.php:836
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: wp-login.php:838
+msgid "Check your email for the confirmation link."
+msgstr ""
+
+#: wp-login.php:840
+msgid "Check your email for your new password."
+msgstr ""
+
+#: wp-login.php:842
+msgid "Registration complete. Please check your email."
+msgstr ""
+
+#: wp-login.php:844
+msgid ""
+"<strong>You have successfully updated WordPress!</strong> Please log back in "
+"to see what&#8217;s new."
+msgstr ""
+
+#: wp-login.php:861
+msgid "Log In"
+msgstr ""
