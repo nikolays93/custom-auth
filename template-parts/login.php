@@ -1,10 +1,10 @@
 <form name="loginform" id="loginform" action="<?php echo esc_url( site_url( LOGINPAGE, 'login_post' ) ); ?>" method="post">
     <p>
-        <label for="user_login"><?php echo apply_filters('user_login_label', _e( 'Username or Email Address' )); ?><br />
+        <label for="user_login"><?php echo apply_filters('user_login_label', __( 'Username or Email Address' )); ?><br />
         <input type="text" name="log" id="user_login"<?php echo $aria_describedby_error; ?> class="input" value="<?php echo esc_attr( $user_login ); ?>" size="20" /></label>
     </p>
     <p>
-        <label for="user_pass"><?php echo apply_filters('user_pass_label', _e( 'Password' ) ); ?><br />
+        <label for="user_pass"><?php echo apply_filters('user_pass_label', __( 'Password' ) ); ?><br />
         <input type="password" name="pwd" id="user_pass"<?php echo $aria_describedby_error; ?> class="input" value="" size="20" /></label>
     </p>
     <?php

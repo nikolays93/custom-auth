@@ -22,6 +22,9 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
  *
  * register_login_header_text
  * lost_password_login_header_text
+ *
+ * user_login_label
+ * user_pass_label
  */
 
 namespace NikolayS93\Auth;
